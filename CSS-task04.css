@@ -1,0 +1,93 @@
+.bodycss
+{
+	background-color: rgb(239,240,244);
+	font-family: Arial, "Heiti", "黑体";
+	color: white; 
+	font-size: 62.5%;
+}
+
+.close{
+	float: left;
+	padding: 1rem;
+	text-align: center;	
+	font-size: 1rem;
+}
+
+.signup{
+	float: right;
+	padding: 1rem;
+	text-align: center;	
+	font-size: 1rem;
+}
+
+.signin{
+	padding: 1rem;
+	text-align: center;	
+	font-size: 1rem;
+}
+
+.headercss{
+	width: 100%;
+	background-color: rgb(95,192,205);
+}
+
+.phonenumber
+{
+	padding: 1.25rem 0rem 1.25rem 4.25rem;
+	width: 75%;
+	height: auto;
+	font-size: 1rem;
+	border: none;
+	font-family: Arial, "Heiti", "黑体";
+	background: url(./images/iphone.png) no-repeat 1.25rem 50%;	
+}
+
+.password
+{
+	padding: 1.25rem 0rem 1.25rem 4.25rem;
+	width: 75%;
+	height: auto;
+	font-size: 1rem;
+	border: none;
+	font-family: Arial, "Heiti", "黑体";
+	background: url(./images/lock.png) no-repeat 1.25rem 50%;
+	
+	
+}
+
+.inputcss01{
+	width: 100%;
+	background-color: white;
+	margin: 2% 0% 1% 0%;
+}
+
+.inputcss02{
+	width: 100%;
+	background-color: white;
+	margin: 1% 0% 2% 0%;
+}
+
+::-webkit-input-placeholder{
+	color: rgb(220,220,220);
+}
+
+.signincommit
+{
+	margin:0% 0% 2% 0%;
+	padding: 1rem;
+	width: 100%;
+	height: auto;
+	font-size: 1rem;
+	border: none;
+	background-color: rgb(95,192,205);
+	text-align: center;
+	color: white;
+	font-family: Arial, "Heiti", "黑体";
+}
+
+.forgetpw
+{
+	float:right;
+	font-size: 0.8rem;
+	color: rgb(95,192,205);
+}
