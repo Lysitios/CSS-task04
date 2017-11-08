@@ -33,38 +33,42 @@
 
 .phonenumber
 {
-	padding: 1.25rem 0rem 1.25rem 4.25rem;
-	width: 75%;
+	padding: 1.25rem 0rem 1.25rem 6rem;
+	width: 100%;
 	height: auto;
 	font-size: 1rem;
 	border: none;
 	font-family: Arial, "Heiti", "黑体";
-	background: url(./images/iphone.png) no-repeat 1.25rem 50%;	
+	background: url(./images/iphone.png) no-repeat 1.75rem 50%;	
+	outline: none;
+	background-size: 3rem;
 }
 
 .password
 {
-	padding: 1.25rem 0rem 1.25rem 4.25rem;
-	width: 75%;
+	padding: 1.25rem 0rem 1.25rem 6rem;
+	width: 100%;
 	height: auto;
 	font-size: 1rem;
 	border: none;
 	font-family: Arial, "Heiti", "黑体";
-	background: url(./images/lock.png) no-repeat 1.25rem 50%;
-	
-	
+	background: url(./images/lock.png) no-repeat 1.75rem 50%;
+	outline: none;
+	background-size: 3rem;
 }
 
 .inputcss01{
 	width: 100%;
 	background-color: white;
 	margin: 2% 0% 1% 0%;
+	overflow: hidden;
 }
 
 .inputcss02{
 	width: 100%;
 	background-color: white;
 	margin: 1% 0% 2% 0%;
+	overflow: hidden;
 }
 
 ::-webkit-input-placeholder{
